@@ -526,13 +526,13 @@ function buildEmptyYearCard(type, year) {
   const card = document.createElement("div");
   card.className = "card card-empty-year";
 
-  const title = document.createElement("div");
-  title.className = "card-title";
-  title.textContent = String(year);
-  card.appendChild(title);
+  const row = document.createElement("div");
+  row.className = "empty-year-inline";
 
-  const body = document.createElement("div");
-  body.className = "card-body empty-year-body";
+  const title = document.createElement("div");
+  title.className = "card-title empty-year-title";
+  title.textContent = String(year);
+  row.appendChild(title);
 
   const placeholder = document.createElement("div");
   placeholder.className = "year-empty-placeholder";
@@ -547,8 +547,8 @@ function buildEmptyYearCard(type, year) {
   message.textContent = `no ${displayType(type).toLowerCase()} activities`;
   placeholder.appendChild(message);
 
-  body.appendChild(placeholder);
-  card.appendChild(body);
+  row.appendChild(placeholder);
+  card.appendChild(row);
   return card;
 }
 
@@ -668,6 +668,15 @@ function trimOldestEmptyYears(years, yearTotals) {
   }
 
   return years.filter((year) => year >= firstActiveYear);
+}
+
+function getVisibleYearsForType(payload, type, years) {
+  const sortedYears = years.slice().sort((a, b) => b - a);
+  if (type === "all") {
+    return sortedYears;
+  }
+  const yearTotals = getTypeYearTotals(payload, type, sortedYears);
+  return trimOldestEmptyYears(sortedYears, yearTotals);
 }
 
 function buildStatRow() {
@@ -1273,11 +1282,6 @@ async function init() {
     ...payload.types.map((type) => ({ value: type, label: displayType(type) })),
   ];
 
-  const yearOptions = [
-    { value: "all", label: "All Years" },
-    ...payload.years.slice().reverse().map((year) => ({ value: String(year), label: String(year) })),
-  ];
-
   function renderButtons(container, options, onSelect) {
     if (!container) return;
     container.innerHTML = "";
@@ -1317,9 +1321,22 @@ async function init() {
 
   function update() {
     const types = selectedType === "all" ? payload.types : [selectedType];
+    const visibleYears = getVisibleYearsForType(payload, selectedType, payload.years);
+    if (selectedYear !== "all" && !visibleYears.includes(Number(selectedYear))) {
+      selectedYear = "all";
+    }
+    const yearOptions = [
+      { value: "all", label: "All Years" },
+      ...visibleYears.map((year) => ({ value: String(year), label: String(year) })),
+    ];
+    renderButtons(yearButtons, yearOptions, (value) => {
+      selectedYear = value;
+      update();
+    });
+    renderSelect(yearSelect, yearOptions);
     const years = isStatsPage
-      ? payload.years.slice()
-      : (selectedYear === "all" ? payload.years : [Number(selectedYear)]);
+      ? visibleYears.slice()
+      : (selectedYear === "all" ? visibleYears.slice() : [Number(selectedYear)]);
     years.sort((a, b) => b - a);
 
     updateButtonState(typeButtons, selectedType);
@@ -1412,12 +1429,7 @@ async function init() {
     selectedType = value;
     update();
   });
-  renderButtons(yearButtons, yearOptions, (value) => {
-    selectedYear = value;
-    update();
-  });
   renderSelect(typeSelect, typeOptions);
-  renderSelect(yearSelect, yearOptions);
 
   if (typeSelect) {
     typeSelect.addEventListener("change", () => {
