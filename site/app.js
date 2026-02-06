@@ -1418,7 +1418,7 @@ async function init() {
 
   function getTypeMenuText(types, allTypesSelected) {
     if (allTypesSelected) return "All Activities";
-    if (types.length > 1) return "Multiple Activities";
+    if (types.length > 1) return "Multiple Activities Selected";
     if (types.length === 1) return `${displayType(types[0])} Activities`;
     return "All Activities";
   }
