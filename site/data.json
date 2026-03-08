@@ -4487,6 +4487,18 @@
       "hour": 17,
       "type": "Ride",
       "year": 2026
+    },
+    {
+      "date": "2026-03-07",
+      "hour": 8,
+      "type": "Ride",
+      "year": 2026
+    },
+    {
+      "date": "2026-03-07",
+      "hour": 16,
+      "type": "WeightTraining",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -9951,6 +9963,15 @@
           "distance": 40085.1,
           "elevation_gain": 179.0,
           "moving_time": 3724.0
+        },
+        "2026-03-07": {
+          "activity_ids": [
+            17633941333
+          ],
+          "count": 1,
+          "distance": 103682.0,
+          "elevation_gain": 514.0,
+          "moving_time": 9005.0
         }
       },
       "Run": {
@@ -10183,11 +10204,20 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 5127.0
+        },
+        "2026-03-07": {
+          "activity_ids": [
+            17638852112
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 2579.0
         }
       }
     }
   },
-  "generated_at": "2026-03-07T07:19:33.739109+00:00",
+  "generated_at": "2026-03-08T07:43:58.267979+00:00",
   "type_meta": {
     "OtherSports": {
       "accent": "#f5c2ff",
