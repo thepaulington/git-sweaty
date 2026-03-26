@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-25T06:53:03.907600+00:00",
+  "generated_at": "2026-03-26T06:58:10.684938+00:00",
   "years": {
     "2018": {
       "OtherSports": {
@@ -5630,6 +5630,16 @@
           "distance": 63422.899999999994,
           "elevation_gain": 1468.0,
           "moving_time": 8422.0
+        },
+        "2026-03-25": {
+          "activity_ids": [
+            17850246184,
+            17856562441
+          ],
+          "count": 2,
+          "distance": 29501.5,
+          "elevation_gain": 1149.0,
+          "moving_time": 5162.0
         }
       },
       "Run": {
