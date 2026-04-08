@@ -4835,6 +4835,30 @@
       "hour": 19,
       "type": "Run",
       "year": 2026
+    },
+    {
+      "date": "2026-04-07",
+      "hour": 8,
+      "type": "WeightTraining",
+      "year": 2026
+    },
+    {
+      "date": "2026-04-07",
+      "hour": 10,
+      "type": "Ride",
+      "year": 2026
+    },
+    {
+      "date": "2026-04-07",
+      "hour": 15,
+      "type": "Swim",
+      "year": 2026
+    },
+    {
+      "date": "2026-04-07",
+      "hour": 18,
+      "type": "Run",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -10589,6 +10613,15 @@
           "distance": 73005.4,
           "elevation_gain": 437.0,
           "moving_time": 7214.0
+        },
+        "2026-04-07": {
+          "activity_ids": [
+            18011552818
+          ],
+          "count": 1,
+          "distance": 20042.2,
+          "elevation_gain": 294.0,
+          "moving_time": 2426.0
         }
       },
       "Run": {
@@ -10754,6 +10787,15 @@
           "distance": 5265.0,
           "elevation_gain": 19.0,
           "moving_time": 1545.0
+        },
+        "2026-04-07": {
+          "activity_ids": [
+            18017075154
+          ],
+          "count": 1,
+          "distance": 9580.5,
+          "elevation_gain": 88.0,
+          "moving_time": 2426.0
         }
       },
       "Swim": {
@@ -10855,6 +10897,15 @@
           "distance": 1500.0,
           "elevation_gain": 0.0,
           "moving_time": 1809.0
+        },
+        "2026-04-07": {
+          "activity_ids": [
+            18013678052
+          ],
+          "count": 1,
+          "distance": 211.4,
+          "elevation_gain": 0.0,
+          "moving_time": 273.0
         }
       },
       "WeightTraining": {
@@ -10965,11 +11016,20 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 3754.0
+        },
+        "2026-04-07": {
+          "activity_ids": [
+            18009542452
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 2258.0
         }
       }
     }
   },
-  "generated_at": "2026-04-07T07:05:26.391266+00:00",
+  "generated_at": "2026-04-08T07:07:21.198038+00:00",
   "type_meta": {
     "OtherSports": {
       "accent": "#f5c2ff",
