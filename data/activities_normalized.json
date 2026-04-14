@@ -8230,12 +8230,52 @@
     "year": 2026
   },
   {
+    "date": "2026-04-12",
+    "distance": 24575.7,
+    "elevation_gain": 334.0,
+    "id": 18093405651,
+    "moving_time": 2784.0,
+    "start_date_local": "2026-04-12T08:56:21Z",
+    "type": "Ride",
+    "year": 2026
+  },
+  {
     "date": "2026-04-13",
     "distance": 44329.2,
     "elevation_gain": 159.0,
     "id": 18087488152,
     "moving_time": 4212.0,
     "start_date_local": "2026-04-13T05:52:42Z",
+    "type": "Ride",
+    "year": 2026
+  },
+  {
+    "date": "2026-04-13",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": 18093045449,
+    "moving_time": 3935.0,
+    "start_date_local": "2026-04-13T16:11:46Z",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-04-13",
+    "distance": 3341.1,
+    "elevation_gain": 17.0,
+    "id": 18093405592,
+    "moving_time": 480.0,
+    "start_date_local": "2026-04-13T17:28:53Z",
+    "type": "Ride",
+    "year": 2026
+  },
+  {
+    "date": "2026-04-13",
+    "distance": 3491.1,
+    "elevation_gain": 29.0,
+    "id": 18093405627,
+    "moving_time": 534.0,
+    "start_date_local": "2026-04-13T15:49:38Z",
     "type": "Ride",
     "year": 2026
   }
