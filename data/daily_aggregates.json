@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T07:20:04.585964+00:00",
+  "generated_at": "2026-05-03T07:48:37.649586+00:00",
   "years": {
     "2018": {
       "OtherSports": {
@@ -5997,12 +5997,22 @@
         },
         "2026-05-02": {
           "activity_ids": [
-            18341296061
+            18341296061,
+            18350607245
+          ],
+          "count": 2,
+          "distance": 116377.3,
+          "elevation_gain": 1397.0,
+          "moving_time": 13710.0
+        },
+        "2026-05-03": {
+          "activity_ids": [
+            18354234555
           ],
           "count": 1,
-          "distance": 35933.2,
-          "elevation_gain": 543.0,
-          "moving_time": 4234.0
+          "distance": 35066.1,
+          "elevation_gain": 157.0,
+          "moving_time": 3621.0
         }
       },
       "Run": {
@@ -6303,6 +6313,15 @@
           "distance": 8658.7,
           "elevation_gain": 27.0,
           "moving_time": 2659.0
+        },
+        "2026-05-03": {
+          "activity_ids": [
+            18354370408
+          ],
+          "count": 1,
+          "distance": 5490.0,
+          "elevation_gain": 16.0,
+          "moving_time": 1830.0
         }
       },
       "Swim": {
