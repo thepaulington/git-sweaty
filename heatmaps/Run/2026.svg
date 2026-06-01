@@ -773,16 +773,16 @@ Elevation: 0 m</title></rect>
 Distance: 10.11 km
 Duration: 49m
 Elevation: 65 m</title></rect>
-<rect x="308" y="0" width="12" height="12" rx="3" ry="3" fill="#1f2937" data-date="2026-05-31"><title>2026-05-31
-0 workouts
-Distance: 0.00 km
-Duration: 0m
-Elevation: 0 m</title></rect>
-<rect x="308" y="14" width="12" height="12" rx="3" ry="3" fill="#1f2937" data-date="2026-06-01"><title>2026-06-01
-0 workouts
-Distance: 0.00 km
-Duration: 0m
-Elevation: 0 m</title></rect>
+<rect x="308" y="0" width="12" height="12" rx="3" ry="3" fill="#01cdfe" data-date="2026-05-31"><title>2026-05-31
+1 workout
+Distance: 5.35 km
+Duration: 25m
+Elevation: 20 m</title></rect>
+<rect x="308" y="14" width="12" height="12" rx="3" ry="3" fill="#01cdfe" data-date="2026-06-01"><title>2026-06-01
+1 workout
+Distance: 2.38 km
+Duration: 10m
+Elevation: 21 m</title></rect>
 <rect x="308" y="28" width="12" height="12" rx="3" ry="3" fill="#1f2937" data-date="2026-06-02"><title>2026-06-02
 0 workouts
 Distance: 0.00 km
