@@ -6029,6 +6029,30 @@
       "hour": 5,
       "type": "Ride",
       "year": 2026
+    },
+    {
+      "date": "2026-07-27",
+      "hour": 9,
+      "type": "Ride",
+      "year": 2026
+    },
+    {
+      "date": "2026-07-27",
+      "hour": 12,
+      "type": "Run",
+      "year": 2026
+    },
+    {
+      "date": "2026-07-27",
+      "hour": 14,
+      "type": "WeightTraining",
+      "year": 2026
+    },
+    {
+      "date": "2026-07-28",
+      "hour": 5,
+      "type": "Ride",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -12712,6 +12736,24 @@
           "distance": 67052.2,
           "elevation_gain": 327.0,
           "moving_time": 6683.0
+        },
+        "2026-07-27": {
+          "activity_ids": [
+            19483989112
+          ],
+          "count": 1,
+          "distance": 103018.0,
+          "elevation_gain": 689.0,
+          "moving_time": 10316.0
+        },
+        "2026-07-28": {
+          "activity_ids": [
+            19494967749
+          ],
+          "count": 1,
+          "distance": 50073.5,
+          "elevation_gain": 336.0,
+          "moving_time": 4966.0
         }
       },
       "Run": {
@@ -13285,6 +13327,15 @@
           "distance": 7657.3,
           "elevation_gain": 61.0,
           "moving_time": 2126.0
+        },
+        "2026-07-27": {
+          "activity_ids": [
+            19484451287
+          ],
+          "count": 1,
+          "distance": 4502.4,
+          "elevation_gain": 56.0,
+          "moving_time": 1504.0
         }
       },
       "Swim": {
@@ -13694,11 +13745,20 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 4490.0
+        },
+        "2026-07-27": {
+          "activity_ids": [
+            19486227697
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 4164.0
         }
       }
     }
   },
-  "generated_at": "2026-07-27T09:31:35.454078+00:00",
+  "generated_at": "2026-07-28T08:14:32.783370+00:00",
   "type_meta": {
     "OtherSports": {
       "accent": "#f5c2ff",
