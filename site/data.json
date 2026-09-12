@@ -6425,6 +6425,12 @@
       "hour": 16,
       "type": "Ride",
       "year": 2026
+    },
+    {
+      "date": "2026-09-11",
+      "hour": 17,
+      "type": "Swim",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -14343,6 +14349,15 @@
           "distance": 500.0,
           "elevation_gain": 0.0,
           "moving_time": 503.0
+        },
+        "2026-09-11": {
+          "activity_ids": [
+            20132828363
+          ],
+          "count": 1,
+          "distance": 1500.0,
+          "elevation_gain": 0.0,
+          "moving_time": 1772.0
         }
       },
       "WeightTraining": {
@@ -14592,7 +14607,7 @@
       }
     }
   },
-  "generated_at": "2026-09-11T10:14:06.608224+00:00",
+  "generated_at": "2026-09-12T09:48:14.314505+00:00",
   "type_meta": {
     "OtherSports": {
       "accent": "#f5c2ff",
