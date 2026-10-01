@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T11:35:13.950112+00:00",
+  "generated_at": "2026-10-01T12:03:59.395864+00:00",
   "years": {
     "2018": {
       "OtherSports": {
@@ -8155,6 +8155,15 @@
           "distance": 1391.9,
           "elevation_gain": 0.0,
           "moving_time": 1739.0
+        },
+        "2026-09-30": {
+          "activity_ids": [
+            20395798570
+          ],
+          "count": 1,
+          "distance": 800.0,
+          "elevation_gain": 0.0,
+          "moving_time": 790.0
         }
       },
       "WeightTraining": {
