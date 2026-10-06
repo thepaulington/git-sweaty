@@ -6659,6 +6659,12 @@
       "hour": 7,
       "type": "OtherSports",
       "year": 2026
+    },
+    {
+      "date": "2026-10-05",
+      "hour": 18,
+      "type": "Swim",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -14879,6 +14885,15 @@
           "distance": 800.0,
           "elevation_gain": 0.0,
           "moving_time": 790.0
+        },
+        "2026-10-05": {
+          "activity_ids": [
+            20463528388
+          ],
+          "count": 1,
+          "distance": 867.4,
+          "elevation_gain": 0.0,
+          "moving_time": 1182.0
         }
       },
       "WeightTraining": {
@@ -15137,7 +15152,7 @@
       }
     }
   },
-  "generated_at": "2026-10-05T13:02:15.942290+00:00",
+  "generated_at": "2026-10-06T12:26:05.513943+00:00",
   "type_meta": {
     "OtherSports": {
       "accent": "#f5c2ff",
