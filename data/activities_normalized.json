@@ -11748,5 +11748,25 @@
     "start_date_local": "2026-11-03T18:00:07Z",
     "type": "Swim",
     "year": 2026
+  },
+  {
+    "date": "2026-11-05",
+    "distance": 41345.1,
+    "elevation_gain": 462.0,
+    "id": 20866104031,
+    "moving_time": 4511.0,
+    "start_date_local": "2026-11-05T05:55:52Z",
+    "type": "Ride",
+    "year": 2026
+  },
+  {
+    "date": "2026-11-05",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": 20866182782,
+    "moving_time": 480.0,
+    "start_date_local": "2026-11-05T07:14:30Z",
+    "type": "OtherSports",
+    "year": 2026
   }
 ]
