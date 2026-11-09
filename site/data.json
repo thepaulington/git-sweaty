@@ -7091,6 +7091,42 @@
       "hour": 9,
       "type": "Ride",
       "year": 2026
+    },
+    {
+      "date": "2026-11-08",
+      "hour": 12,
+      "type": "Swim",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-08",
+      "hour": 14,
+      "type": "Ride",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-08",
+      "hour": 20,
+      "type": "OtherSports",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-09",
+      "hour": 5,
+      "type": "OtherSports",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-09",
+      "hour": 6,
+      "type": "Ride",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-09",
+      "hour": 7,
+      "type": "Ride",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -12167,6 +12203,24 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 1320.0
+        },
+        "2026-11-08": {
+          "activity_ids": [
+            20913664266
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 1320.0
+        },
+        "2026-11-09": {
+          "activity_ids": [
+            20916416421
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 900.0
         }
       },
       "Ride": {
@@ -14748,6 +14802,25 @@
           "distance": 126066.0,
           "elevation_gain": 476.0,
           "moving_time": 11654.0
+        },
+        "2026-11-08": {
+          "activity_ids": [
+            20911015433
+          ],
+          "count": 1,
+          "distance": 100078.0,
+          "elevation_gain": 269.0,
+          "moving_time": 7624.0
+        },
+        "2026-11-09": {
+          "activity_ids": [
+            20916746143,
+            20916866317
+          ],
+          "count": 2,
+          "distance": 36330.6,
+          "elevation_gain": 448.0,
+          "moving_time": 3829.0
         }
       },
       "Run": {
@@ -15800,6 +15873,15 @@
           "distance": 600.0,
           "elevation_gain": 0.0,
           "moving_time": 977.0
+        },
+        "2026-11-08": {
+          "activity_ids": [
+            20907928909
+          ],
+          "count": 1,
+          "distance": 1700.0,
+          "elevation_gain": 0.0,
+          "moving_time": 1890.0
         }
       },
       "WeightTraining": {
@@ -16121,7 +16203,7 @@
       }
     }
   },
-  "generated_at": "2026-11-08T12:27:32.142291+00:00",
+  "generated_at": "2026-11-09T14:42:16.733192+00:00",
   "type_meta": {
     "OtherSports": {
       "accent": "#f5c2ff",
