@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T14:42:16.679561+00:00",
+  "generated_at": "2026-11-10T13:58:00.624124+00:00",
   "years": {
     "2018": {
       "OtherSports": {
@@ -7692,6 +7692,15 @@
           "distance": 36330.6,
           "elevation_gain": 448.0,
           "moving_time": 3829.0
+        },
+        "2026-11-10": {
+          "activity_ids": [
+            20933206571
+          ],
+          "count": 1,
+          "distance": 84047.2,
+          "elevation_gain": 232.0,
+          "moving_time": 7897.0
         }
       },
       "Run": {
@@ -8753,6 +8762,15 @@
           "distance": 1700.0,
           "elevation_gain": 0.0,
           "moving_time": 1890.0
+        },
+        "2026-11-09": {
+          "activity_ids": [
+            20923204348
+          ],
+          "count": 1,
+          "distance": 1200.0,
+          "elevation_gain": 0.0,
+          "moving_time": 1279.0
         }
       },
       "WeightTraining": {
