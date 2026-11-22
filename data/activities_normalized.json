@@ -12138,5 +12138,35 @@
     "start_date_local": "2026-11-19T07:05:14Z",
     "type": "OtherSports",
     "year": 2026
+  },
+  {
+    "date": "2026-11-21",
+    "distance": 5504.5,
+    "elevation_gain": 143.0,
+    "id": 21073240356,
+    "moving_time": 4894.0,
+    "start_date_local": "2026-11-21T14:56:50Z",
+    "type": "OtherSports",
+    "year": 2026
+  },
+  {
+    "date": "2026-11-22",
+    "distance": 3640.3,
+    "elevation_gain": 19.0,
+    "id": 21080325034,
+    "moving_time": 303.0,
+    "start_date_local": "2026-11-22T09:37:56Z",
+    "type": "Ride",
+    "year": 2026
+  },
+  {
+    "date": "2026-11-22",
+    "distance": 4081.8,
+    "elevation_gain": 12.0,
+    "id": 21080427292,
+    "moving_time": 372.0,
+    "start_date_local": "2026-11-22T09:44:23Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
